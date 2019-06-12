@@ -8,7 +8,7 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
-    children:
+children:
       - title: "Posts Archive"
         url: /posts/
       - title: "Tag Archive"
