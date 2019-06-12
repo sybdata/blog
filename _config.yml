@@ -64,19 +64,19 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : algolia # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
+  index_name             : minimal_mistakes # YOUR_INDEX_NAME
+  search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -98,10 +98,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-2011187-3"
+    anonymize_ip         : true #false (default)
 
 
 # Site Author
@@ -195,7 +195,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europa/Berlin  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -264,6 +264,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: # true
       related: true
