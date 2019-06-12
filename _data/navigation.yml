@@ -8,11 +8,11 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
-  - title: "Postsrrrrrr"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tagsrrrrrrrrr"
-    url: /tags/
-  - title: "Aboutrrrrrrrrrrrr"
-    url: /about/
+  - title: "Installation und Konfiguration"
+    url: https://sybdata.de/wordpress/installation-und-konfiguration/
+  - title: "Secure and Hardening"
+    url: https://sybdata.de/wordpress/secure-and-hardening/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "minimal-mistakes github"
+    url: https://github.com/mmistakes/minimal-mistakes
