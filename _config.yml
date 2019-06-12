@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "de-DE"
+locale                   : "en-US"
 title                    : "SybDATA"
 title_separator          : "-"
 name                     : "ASid500"
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "ASid500"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bb46e74723809c722579a640e2c2d4f6.jpeg"
   bio              : "I am an amazing person."
   location         : "Hamburg"
   email            :
