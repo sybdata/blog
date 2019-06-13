@@ -57,14 +57,14 @@ WSL-2 speichert alle Linux-Dateien in eine VHD, die das ext4-Dateisystem verwend
    1. Beenden Sie alle WSL-Instanzen, die mit der die ```wsl --shutdown Befehl```
    2. Ändern der Größe der virtuellen Festplatte WSL-2 dazu die folgenden Befehle
     
-       * Öffnen Sie ein Eingabeaufforderungsfenster mit Administratorrechten, und führen Sie die folgenden Befehle aus:
+      * Öffnen Sie ein Eingabeaufforderungsfenster mit Administratorrechten, und führen Sie die folgenden Befehle aus:
             * ```Select vdisk file="<pathToVHD>"```
             * ```expand vdisk maximum="<sizeInMegaBytes>"```
             
    3. Starten Sie Ihre Distribution WSL
    4. Stellen Sie die WSL Beachten Sie, dass das Dateisystem Größe erweitert werden kann
         
-        * Führen Sie diese Befehle in Ihrer Distribution WSL:
+      * Führen Sie diese Befehle in Ihrer Distribution WSL:
             * ```sudo mount -t devtmpfs none /dev```
             * ```mount | grep ext4```
                 * Kopieren Sie den Namen dieses Eintrags, der aussieht: / Dev/SdXX (mit dem X, die alle anderen Zeichen darstellt.)
