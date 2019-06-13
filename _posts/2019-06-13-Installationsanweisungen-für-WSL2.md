@@ -9,9 +9,9 @@ tags:
 ---
 Führen Sie zum Installieren und nutzen Sie WSL 2 die folgenden Schritte aus:
 
-    Aktivieren Sie die "VM-Plattform" optionale Komponente
-    Legen Sie eine Distribution, die durch die WSL-2, die über die Befehlszeile unterstützt werden
-    Überprüfen Sie, welche Versionen von WSL Ihre Distributionen verwenden
+   * Aktivieren Sie die "VM-Plattform" optionale Komponente
+   * Legen Sie eine Distribution, die durch die WSL-2, die über die Befehlszeile unterstützt werden
+   * Überprüfen Sie, welche Versionen von WSL Ihre Distributionen verwenden
 
 Aktivieren Sie die "VM-Plattform" optionale Komponente
 
