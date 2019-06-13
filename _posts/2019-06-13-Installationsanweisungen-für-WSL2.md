@@ -16,9 +16,9 @@ Führen Sie zum Installieren und nutzen Sie WSL 2 die folgenden Schritte aus:
 Aktivieren Sie die "VM-Plattform" optionale Komponente
 
 Öffnen Sie PowerShell als Administrator, und führen Sie aus:
-
+```ruby
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
-
+```
 Nachdem diese Änderungen aktiviert sind, müssen Sie den Computer neu starten.
 Legen Sie eine Distribution, die durch die WSL-2, die über die Befehlszeile unterstützt werden
 
