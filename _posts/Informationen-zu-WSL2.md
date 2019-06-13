@@ -1,3 +1,13 @@
+---
+title: "Informationen zu WSL 2"
+date: 2019-06-13T15:34:30-06:00
+categories:
+  - Windows Subsystem for Linux
+tags:
+  - WLS
+  - Linux kernel
+---
+
 WSL 2 ist eine neue Version der Architektur, die dem Windows-Subsystem für Linux zum Ausführen von ELF64 Linux-Binärdateien auf Windows zugrunde liegen. Die Hauptziele sind, um die Leistung des Dateisystems, ebenso wie das Hinzufügen Aufruf vollständige Kompatibilität zu erhöhen. Diese neue Architektur ändert, wie diese Linux-Binärdateien mit Windows und Hardware des Computers zu interagieren, jedoch bietet weiterhin die gleiche benutzerfreundlichkeit wie WSL 1 (die aktuelle allgemein verfügbare Version). Einzelne-Linux auf Distributionen können entweder als eine WSL-1-Distribution oder als eine WSL-2-Distribution ausgeführt werden, aktualisiert oder zu einem beliebigen Zeitpunkt herabgestuft werden kann, und Sie können die WSL-1 und 2 von WSL Distributionen parallel ausführen. WSL 2 wird verwendet, eine ganz neue Architektur, die einen echten Linux-Kernel verwendet wird.
 Linux kernel in WSL 2
 
