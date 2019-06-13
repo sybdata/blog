@@ -1,6 +1,6 @@
 ---
 title: "Informationen zu WSL 2"
-date: 2019-06-13T15:34:30-06:00
+date: 2019-06-13T15:36:30-06:00
 categories:
   - Windows Subsystem for Linux
 tags:
