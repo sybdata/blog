@@ -33,6 +33,7 @@ Wenn Sie einen Server in einer Distribution WSL verfügen, müssen Sie die IP-Ad
     Verbinden Sie mit dem Linux-Server mit der IP-Adresse, dem Sie weiter oben wurde gefunden.
 
 Die folgende Abbildung zeigt ein Beispiel dafür durch Herstellen einer Verbindung mit einem Node.js-Server mit Microsoft Edge-Browser.
+{% include figure image_path="https://docs.microsoft.com/de-de/windows/wsl/media/wsl2-network-w2l.jpg" alt="this is a placeholder image" caption="" %}
 
 Zugreifen auf Linux-netzwerkanwendungen über Windows
 Zugriff auf Windows-Anwendungen unter Linux
