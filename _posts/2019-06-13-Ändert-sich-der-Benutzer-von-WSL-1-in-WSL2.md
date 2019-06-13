@@ -20,17 +20,21 @@ Und unten ist die vollständige Liste der anderen Änderungen, die Sie ggf. beme
 
 Speichern Sie die Linux-Dateien in Ihrem Linux-Root-Dateisystem
 
-Stellen Sie sicher, dass die Dateien, die Sie häufig mit Linux zugreifen, stellen Anwendungen innerhalb Ihrer Linux-root-Dateisystem, um die Datei Leistungsvorteile nutzen zu können. Diese Dateien müssen in das Stammdateisystem für Linux, damit schnellere Dateisystemzugriff sein. Wir haben auch möglich, dass Windows-apps, die Linux-Root-Dateisystem (z. B. Datei-Explorer! den Zugriff auf die vereinfacht Versuchen Sie es ausgeführt wird: explorer.exe / in Ihrem Bash-Shell und was geschieht, finden Sie unter) dem erleichtert diesen Übergang erheblich.
+Stellen Sie sicher, dass die Dateien, die Sie häufig mit Linux zugreifen, stellen Anwendungen innerhalb Ihrer Linux-root-Dateisystem, um die Datei Leistungsvorteile nutzen zu können. Diese Dateien müssen in das Stammdateisystem für Linux, damit schnellere Dateisystemzugriff sein. Wir haben auch möglich, dass Windows-apps, die Linux-Root-Dateisystem (z. B. Datei-Explorer! den Zugriff auf die vereinfacht Versuchen Sie es ausgeführt wird: ```explorer.exe /``` in Ihrem Bash-Shell und was geschieht, finden Sie unter) dem erleichtert diesen Übergang erheblich.
 Zugriff auf netzwerkanwendungen
 
 In der ersten die WSL-2-Vorschau-Builds müssen Sie die IP-Adresse Ihrer Linux-Distribution und einem beliebigen Windows-Server unter Linux, die die IP-Adresse des Host-Computers mit Windows auf einem Linux-Server. Dies ist etwas, das temporäre, und auf unserer Prioritätenliste beheben sehr hoch ist.
-Zugreifen auf Linux-Anwendungen aus Windows
+
+## Zugreifen auf Linux-Anwendungen aus Windows
 
 Wenn Sie einen Server in einer Distribution WSL verfügen, müssen Sie die IP-Adresse des virtuellen Computers verbessern der Leistung von Ihrer Distribution zu finden und mit dieser IP-Adresse herstellen. Sie können dazu folgende Schritte:
 
-    Erhalten Sie durch Ausführen des Befehls die IP-Adresse Ihrer Distribution ip addr innerhalb Ihrer Distribution WSL und finden sie unter den inet Wert der eth0 Schnittstelle.
-        Sie finden diese leichter durch Filtern der Ausgabe des Befehls mit Grep folgendermaßen: ip addr | grep eth0.
-    Verbinden Sie mit dem Linux-Server mit der IP-Adresse, dem Sie weiter oben wurde gefunden.
+   * Erhalten Sie durch Ausführen des Befehls die IP-Adresse Ihrer Distribution ip addr innerhalb Ihrer Distribution WSL und finden sie unter den inet Wert der eth0 Schnittstelle.
+        * Sie finden diese leichter durch Filtern der Ausgabe des Befehls mit Grep folgendermaßen: 
+        ```ruby
+        ip addr | grep eth0.
+        ```
+   * Verbinden Sie mit dem Linux-Server mit der IP-Adresse, dem Sie weiter oben wurde gefunden.
 
 Die folgende Abbildung zeigt ein Beispiel dafür durch Herstellen einer Verbindung mit einem Node.js-Server mit Microsoft Edge-Browser.
 {% include figure image_path="https://docs.microsoft.com/de-de/windows/wsl/media/wsl2-network-w2l.jpg" alt="this is a placeholder image" caption="" %}
