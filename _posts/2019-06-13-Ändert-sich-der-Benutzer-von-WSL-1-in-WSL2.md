@@ -9,14 +9,14 @@ tags:
 ---
 Auf dieser Seite verläuft über die Unterschiede hinsichtlich der benutzerfreundlichkeit zwischen WSL 1 und der WSL-2-Vorschau. Die wichtigsten Änderungen, zu berücksichtigen sind:
 
-    Speichern Sie Dateien, die Ihre Linux-apps in Ihrem Linux-Root-Dateisystem für schnellere Leistung, Geschwindigkeit Datei zugegriffen wird
-    In ersten die WSL-2-Vorschau-Builds müssen Sie den Zugriff auf netzwerkanwendungen mithilfe einer IP-Adresse und nicht "localhost"
+   * Speichern Sie Dateien, die Ihre Linux-apps in Ihrem Linux-Root-Dateisystem für schnellere Leistung, Geschwindigkeit Datei zugegriffen wird
+   * In ersten die WSL-2-Vorschau-Builds müssen Sie den Zugriff auf netzwerkanwendungen mithilfe einer IP-Adresse und nicht "localhost"
 
 Und unten ist die vollständige Liste der anderen Änderungen, die Sie ggf. bemerken:
 
-    WSL 2 verwendet eine virtuelle Festplatte zum Speichern der Dateien, und wenn Sie die maximale Größe erreichen müssen Sie möglicherweise um ihn zu erweitern
-    Beim Start wird WSL 2 einen kleinen Anteil des Speichers jetzt verwenden.
-    Cross-Betriebssystem wird zugriffsgeschwindigkeit der Datei in der ersten Vorschau-Builds langsamer sein.
+   * WSL 2 verwendet eine virtuelle Festplatte zum Speichern der Dateien, und wenn Sie die maximale Größe erreichen müssen Sie möglicherweise um ihn zu erweitern
+   * Beim Start wird WSL 2 einen kleinen Anteil des Speichers jetzt verwenden.
+   * Cross-Betriebssystem wird zugriffsgeschwindigkeit der Datei in der ersten Vorschau-Builds langsamer sein.
 
 Speichern Sie die Linux-Dateien in Ihrem Linux-Root-Dateisystem
 
