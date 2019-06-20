@@ -1,5 +1,5 @@
 ---
-title: "MMC Consoles(msc) and Control Panel files(cpl)"
+title: "MMC(.msc) & Control Panel(.cpl)"
 date: 2019-06-20T15:34:30-04:00
 categories:
   - Windows 10 - Server
