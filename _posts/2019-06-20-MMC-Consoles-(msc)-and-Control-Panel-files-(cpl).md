@@ -18,5 +18,6 @@ Get-ChildItem -Path C:\Windows\system32\* -Include *.msc, *.cpl | Sort-Object -P
 
 {% include figure image_path="/assets/images/mmscpl.png" alt="this is a placeholder image" caption="" %}
 
-1. compmgmt.msc
+## 1. compmgmt.msc
+Um sich einen Überblick über Ihren Computer zu verschaffen und Ihr System zu verwalten, öffnen Sie die Suche oder drücken Sie ALT + R und geben Sie compmgmt.msc ein.
 {% include figure image_path="/assets/images/mmscpl02.png" alt="this is a placeholder image" caption="" %}
