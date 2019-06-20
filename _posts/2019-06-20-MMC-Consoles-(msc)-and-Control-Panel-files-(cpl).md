@@ -1,5 +1,5 @@
 ---
-title: "MMC(.msc) & Control Panel(.cpl)"
+title: "Top 10 MMC(.msc) & Control Panel(.cpl)"
 date: 2019-06-20T15:34:30-04:00
 categories:
   - Windows 10 - Server
@@ -24,3 +24,6 @@ Um sich einen Überblick über Ihren Computer zu verschaffen und Ihr System zu v
 ## 2. eventvwr.msc
 Führen Sie zum Öffnen der Windows-Ereignisanzeige eventvwr.msc aus.
 {% include figure image_path="/assets/images/mmscpl03.png" alt="this is a placeholder image" caption="" %}
+## 3. fsmgmt.msc
+Um Ihre Dateifreigaben zu verwalten, rufen Sie sie direkt über die MMC-Konsole für freigegebene Ordner auf.
+{% include figure image_path="/assets/images/mmscpl04.png" alt="this is a placeholder image" caption="" %}
