@@ -17,3 +17,5 @@ Get-ChildItem -Path C:\Windows\system32\* -Include *.msc, *.cpl | Sort-Object -P
 ```
 
 {% include figure image_path="/assets/images/mmscpl.png" alt="this is a placeholder image" caption="" %}
+
+![mmscpl](/assets/images/mmscpl.png)
