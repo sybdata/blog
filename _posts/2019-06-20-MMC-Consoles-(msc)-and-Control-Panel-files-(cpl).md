@@ -27,3 +27,6 @@ Führen Sie zum Öffnen der Windows-Ereignisanzeige eventvwr.msc aus.
 ## 3. fsmgmt.msc
 Um Ihre Dateifreigaben zu verwalten, rufen Sie sie direkt über die MMC-Konsole für freigegebene Ordner auf.
 {% include figure image_path="/assets/images/mmscpl04.png" alt="this is a placeholder image" caption="" %}
+## 4. lusrmgr.msc
+Schwer zu finden, aber hiermit ist es direkt zugänglich. Lokale Benutzer und Gruppen mit lusrmgr.msc verwalten.
+{% include figure image_path="/assets/images/mmscpl05.png" alt="this is a placeholder image" caption="" %}
