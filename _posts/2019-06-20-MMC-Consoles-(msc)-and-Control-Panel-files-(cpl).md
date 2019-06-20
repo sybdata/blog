@@ -30,3 +30,5 @@ Um Ihre Dateifreigaben zu verwalten, rufen Sie sie direkt über die MMC-Konsole 
 ## 4. lusrmgr.msc
 Schwer zu finden, aber hiermit ist es direkt zugänglich. Lokale Benutzer und Gruppen mit lusrmgr.msc verwalten.
 {% include figure image_path="/assets/images/mmscpl05.png" alt="this is a placeholder image" caption="" %}
+## 5. services.msc
+{% include figure image_path="/assets/images/mmscpl06.png" alt="this is a placeholder image" caption="" %}
