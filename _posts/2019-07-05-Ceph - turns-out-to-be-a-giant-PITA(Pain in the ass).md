@@ -29,3 +29,4 @@ tags:
     usage:   3.01GiB used, 147GiB / 150GiB avail
     pgs:     251 active+clean
 ```
+{% include figure image_path="https://sybdata.de/sphinx/_images/mds-state-diagram.svg" alt="this is a placeholder image" caption="" %}
