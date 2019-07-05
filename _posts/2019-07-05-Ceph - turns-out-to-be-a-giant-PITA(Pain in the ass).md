@@ -9,7 +9,8 @@ tags:
   - Ceph Storage Cluster
   - Ceph Block Device
 ---
-	```ruby
+{% include figure image_path="https://sybdata.de/sphinx/_images/ditaa-409784e9076840f895f8cbd328a523961cda0d87.png" alt="this is a placeholder image" caption="" %}
+```ruby
 [root@ds1 /]# ceph -s
   cluster:
     id:     4bf42ffc-eccb-48c2-aa74-7d82aa72196c
