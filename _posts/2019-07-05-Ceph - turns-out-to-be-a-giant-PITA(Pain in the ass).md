@@ -29,4 +29,22 @@ tags:
     usage:   3.01GiB used, 147GiB / 150GiB avail
     pgs:     251 active+clean
 ```
+This state diagram shows the possible state transitions for the MDS/rank. The legend is as follows:
+Color
+
+   * Green: MDS is active.
+   * Orange: MDS is in transient state trying to become active.
+   * Red: MDS is indicating a state that causes the rank to be marked failed.
+   * Purple: MDS and rank is stopping.
+   * Red: MDS is indicating a state that causes the rank to be marked damaged.
+
+Shape
+
+   * Circle: an MDS holds this state.
+   * Hexagon: no MDS holds this state (it is applied to the rank).
+
+Lines
+
+   * A double-lined shape indicates the rank is “in”.
+
 {% include figure image_path="https://sybdata.de/sphinx/_images/mds-state-diagram.svg" alt="this is a placeholder image" caption="" %}
