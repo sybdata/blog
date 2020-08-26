@@ -8,8 +8,8 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
-  - title: "Installation und Konfiguration"
-    url: https://sybdata.de/wordpress/installation-und-konfiguration/
+  - title: "DIY-Server"
+    url: http://live.dedyn.io/
   - title: "Secure and Hardening"
     url: https://sybdata.de/wordpress/secure-and-hardening/
   - title: "Quick-Start Guide"
