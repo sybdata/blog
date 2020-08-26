@@ -1,0 +1,44 @@
+---
+title: "OTT/IPTV - Решения"
+date: 2020-08-26T18:50:30-04:00
+categories:
+  - Netzwerk
+tags:
+  - server
+  - ott
+  - iptv
+  - proxy
+---
+
+1. Zeigt die IP-Konfiguration des lokalen Systems an:
+```ruby
+C:\Windows\System32> ipconfig
+[/all] Detaillierte Ausgabe aller Parameter
+[/renew] IP-Adresse vom DHCP-Server
+[/release] IP-Adresse freigeben
+[/displaydns] Inhalt des DNS-Caches anzeigen
+[/flushdns] DNS-Cache löschen
+[/registerdns] DNS-Record registrieren 
+```
+2. Zeigt die Zuordnung von MAC-Adressen zu IP-Adressen an:
+```ruby
+c:\Windows\System32> arp
+[-a] Zeigt alle Zuordnungen an.
+```
+3. Zeigt den DNS-Hostnamen des lokalen Systems an:
+```ruby
+c:\Windows\System32> hostname
+```
+4. Löst den DNS-Namen bzw. die IP-Adresse auf dem primären DNS-Server auf:
+```ruby
+c:\Windows\System32> nslookup
+```
+5. Zeigt TCP / IP Statistiken an:
+```ruby
+c:\Windows\System32> netstat
+Standardmäßig werden die momentan offenen Verbindungen angezeigt
+[-a] Zeigt auch serverseitige Verbindungen an.
+[-n] Zeit IP-Adressen und Portnummern an.
+[-p] Hiermit kann ein bestimmtes Protokoll gewählt werden.
+[-o] Zeigt zu jeder Verbindung die Prozess PID an
+```
