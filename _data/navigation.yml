@@ -1,18 +1,10 @@
 # main links
 main:
-  - title: "Posts"
-    url: /posts/
+  - title: "ott-iptv"
+    url: https://sybdata.github.io/blog/netzwerk/ott-iptv/
+  - title: "DIY-Server"
+    url: http://live.dedyn.io/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "DIY-Server"
-    url: http://live.dedyn.io/
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "minimal-mistakes github"
-    url: https://github.com/mmistakes/minimal-mistakes
-  - title: "About"
-    url: /about/
-  - title: "Secure and Hardening"
-    url: https://sybdata.de/wordpress/secure-and-hardening/
