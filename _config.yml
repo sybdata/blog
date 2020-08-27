@@ -117,7 +117,7 @@ author:
       url: mailto:alex@id500.de
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://sybdata.de/wordpress"
+      url: "https://tech.id500.de/wp/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sybdata"
