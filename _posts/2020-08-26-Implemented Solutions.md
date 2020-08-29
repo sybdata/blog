@@ -19,6 +19,6 @@ tags:
 
 * AceY - Ace Stream Proxy
 
-* Server с порталом Ministra TV platform
+* [Server с порталом Ministra TV platform](http://m-portal.ultima-tv.com/)
 
 
