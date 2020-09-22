@@ -16,52 +16,46 @@ tags:
 
 If you choose to, register on Oracle Cloud (requires credit card for verification) and create a free VM:
 
-    Create a VM instance
-    Give it a name
-    OS/image: Canonical Ubuntu 18.04 Minimal
-    Show Shape, Network and Storage Options -> Assign a public IP address
-    Add SSH key (generate one using ssh-keygen if you don't have one)
-    Show advanced options. I removed monitoring, since I'll remove the monitoring agent later.
+ * Create a VM instance
+ * Give it a name
+ * OS/image: Canonical Ubuntu 18.04 Minimal
+ * Show Shape, Network and Storage Options -> Assign a public IP address
+ * Add SSH key (generate one using ssh-keygen if you don't have one)
+ * Show advanced options. I removed monitoring, since I'll remove the monitoring agent later.
 
 View resources and make sure the instance and boot volume are "Always Free" if you don't intent to pay for them.
 
 Make sure you can ssh to the server (using the ssh key you generated/picked) using the user 'ubuntu' and can use sudo.
-Open firewall
-TURN/STUN and coturn
-
-TURN/STUN is used for audio and video stream NAT/firewall traversal. coturn implements the protocol. If you don't need 1-on-1 video/audio calls, or if you're sure NAT and firewall won't be a problem (e.g. you only do calls on networks where you're sure traffic can flow) you can disable coturn to save some more RAM. Generally using coturn gives you much more reliable audio/video calls.
-Oracle Cloud Security lists
-
+### Open firewall
+#### Oracle Cloud Security lists
 View resources -> Instances -> Select instance -> Virtual Cloud Network -> Public Subnet -> Security Lists -> Default -> Ingress
 
 Open incoming for CIDR 0.0.0.0/0:
 
-    22/tcp for SSH (should be open already)
-    80/tcp for HTTP
-    443/tcp for HTTPS
-    8448/tcp for Matrix federation
-    3478/tcp, 5349/tcp, 3478/udp, 5349/udp, 49152-49172/udp for TURN/STUN
+ * 22/tcp for SSH (should be open already)
+ * xxxx/tcp for ZMP
+ * xxxx/tcp for HLS-proxy or Xteve
 
-Ubuntu iptables
+#### Ubuntu iptables
 
 The Oracle Cloud Ubuntu images come with somewhat restrictive iptables rules by default. Docker manages the instance firewall and we have the Oracle Cloud firewall in front, so let's remove the current firewall to avoid trouble:
-
+```ruby
 apt purge netfilter-persistent iptables-persistent
-
-Remove useless stuff (optional)
+```
+### Remove useless stuff (optional)
 
 Oracle cloud includes a somewhat heavy monitoring daemon. We have better use for that memory since current versions of Synapse, the Matrix homeserver, can be memory hungry.
-
+```ruby
 snap remove oracle-cloud-agent
 apt purge snapd open-iscsi lxd lxcfs
-
-Tune server (optional)
+```
+### Tune server (optional)
 
 I suggest enabling swap, since there's only 1 GB of RAM.
-
+```ruby
 dd if=/dev/zero of=/swap bs=1M count=1k
 chmod 0600 /swap
 mkswap /swap
 swapon /swap
 echo '/swap none swap sw 0 0' >> /etc/fstab
-
+```
