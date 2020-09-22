@@ -18,7 +18,7 @@ If you choose to, register on Oracle Cloud (requires credit card for verificatio
 
  * Create a VM instance
  * Give it a name
- * OS/image: Canonical Ubuntu 18.04 Minimal
+ * OS/image: Ubuntu 16.04 Minimal or Ubuntu 18.04 Minimal or Ubuntu 20.04 Minimal or CentOS 7
  * Show Shape, Network and Storage Options -> Assign a public IP address
  * Add SSH key (generate one using ssh-keygen if you don't have one)
  * Show advanced options. I removed monitoring, since I'll remove the monitoring agent later.
