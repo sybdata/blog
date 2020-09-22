@@ -20,7 +20,7 @@ If you choose to, register on Oracle Cloud (requires credit card for verificatio
  * Give it a name
  * OS/image: Ubuntu 16.04 Minimal or Ubuntu 18.04 Minimal or Ubuntu 20.04 Minimal or CentOS 7
  * Show Shape, Network and Storage Options -> Assign a public IP address
- * Add SSH key (generate one using ssh-keygen if you don't have one)
+ * [Add SSH key (generate one using ssh-keygen if you don't have one)](https://tech.id500.de/wp/?page_id=201)
  * Show advanced options. I removed monitoring, since I'll remove the monitoring agent later.
 
 View resources and make sure the instance and boot volume are "Always Free" if you don't intent to pay for them.
