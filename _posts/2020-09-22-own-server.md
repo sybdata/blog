@@ -9,7 +9,7 @@ tags:
   - vps
   - oracle
 ---
-{% include figure image_path="https://user-images.githubusercontent.com/24189833/93932452-84fa5300-fd20-11ea-8465-cb84ce99817f.png" alt="this is a placeholder image" caption="" %}
+
 ![2020-09-22 (6)](https://user-images.githubusercontent.com/24189833/93932452-84fa5300-fd20-11ea-8465-cb84ce99817f.png)
 
 ## Run your own ZMP Server on Oracle Cloud Infrastructure
