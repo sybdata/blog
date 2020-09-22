@@ -10,6 +10,6 @@ tags:
   - oracle
 ---
 
-{% include figure image_path="https://user-images.githubusercontent.com/24189833/93931648-60ea4200-fd1f-11ea-8fa3-ad5db733fc88.png" alt="this is a placeholder image" caption="" %}
+
 ## Run your own ZMP Server on Oracle Cloud Infrastructure
 
