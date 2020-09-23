@@ -18,6 +18,12 @@ tags:
 идём в -> "Oracle Cloud Infrastructure" -> "Опробовать бесплатный уровень" 
 ![2020-09-23 (1)](https://user-images.githubusercontent.com/24189833/94052304-09a8a800-fdd9-11ea-9e9e-ec666a0c8445.png)
 
+далее ознакомимся с условиями и с перечнем бесрлатного пакета "Always Free"
+![2020-09-23 (2)](https://user-images.githubusercontent.com/24189833/94052908-e5999680-fdd9-11ea-8693-7f1212ad5061.png)
+
+![2020-09-23 (3)](https://user-images.githubusercontent.com/24189833/94053329-7ec8ad00-fdda-11ea-8fc3-3abd958a177b.png)
+
+
 
 ## Run your own ZMP Server on Oracle Cloud Infrastructure
 
