@@ -23,6 +23,15 @@ tags:
 
 ![2020-09-23 (3)](https://user-images.githubusercontent.com/24189833/94053329-7ec8ad00-fdda-11ea-8fc3-3abd958a177b.png)
 
+жмём на "начните с бесплатной версии" и поехали...
+![2020-09-23 (5)](https://user-images.githubusercontent.com/24189833/94059611-f569a880-fde2-11ea-8266-17e990548b6c.png)
+![2020-09-23 (6)](https://user-images.githubusercontent.com/24189833/94059953-7628a480-fde3-11ea-966a-0c8b9f90b9e5.png)
+
+дальше нужно пройти 2 верификации, по смс и по кредитке (кнопка "start my free.." уже видна и держим на неё курс)
+![2020-09-23 (7)](https://user-images.githubusercontent.com/24189833/94060498-58a80a80-fde4-11ea-8b58-8f0d6f9f136e.png)
+![2020-09-23 (8)](https://user-images.githubusercontent.com/24189833/94060862-e683f580-fde4-11ea-97aa-4be7960d2126.png)
+
+
 
 
 ## Run your own ZMP Server on Oracle Cloud Infrastructure
