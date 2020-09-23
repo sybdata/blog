@@ -33,8 +33,11 @@ tags:
 ![2020-09-23 (9)](https://user-images.githubusercontent.com/24189833/94061125-424e7e80-fde5-11ea-85ee-c352b6d57789.png)
 ![2020-09-23 (10)](https://user-images.githubusercontent.com/24189833/94061457-b426c800-fde5-11ea-9059-072543573d73.png)
 ### если всё в порядке то получаем "зелёный свет"
+
 ![2020-09-23 (11)](https://user-images.githubusercontent.com/24189833/94061629-eb957480-fde5-11ea-9620-8272fbfa3441.png)
-и теперь кнопка "start my free.." наконец то доступна
+
+### и теперь кнопка "start my free.." наконец то доступна
+
 ![2020-09-23 (13)](https://user-images.githubusercontent.com/24189833/94062458-fef50f80-fde6-11ea-81f6-94ed9fa52552.png)
 ### жмакаем и мы на месте
 ![2020-09-23 (14)](https://user-images.githubusercontent.com/24189833/94062725-53988a80-fde7-11ea-84fa-d0d5f0453978.png)
@@ -72,7 +75,7 @@ tags:
 ![2020-09-23 (35)](https://user-images.githubusercontent.com/24189833/94069238-83985b80-fdf0-11ea-8006-26aa4b3f8b3e.png)
 
 
-## enjoy
+# enjoy
 
 
 
