@@ -44,6 +44,8 @@ tags:
 ![2020-09-23 (16)](https://user-images.githubusercontent.com/24189833/94063137-f3eeaf00-fde7-11ea-8e0c-f0ad9660d42b.png)
 бесплатные машины доступны только на AD3!
 ![2020-09-23 (17)](https://user-images.githubusercontent.com/24189833/94063430-62cc0800-fde8-11ea-8e09-fa5904072e1a.png)
+теперь выбираем саму машину и главное не промахнутся
+![2020-09-23 (18)](https://user-images.githubusercontent.com/24189833/94063819-fa315b00-fde8-11ea-984b-ab714eb7bbb7.png)
 
 
 
