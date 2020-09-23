@@ -30,6 +30,10 @@ tags:
 дальше нужно пройти 2 верификации, по смс и по кредитке (кнопка "start my free.." уже видна и держим на неё курс)
 ![2020-09-23 (7)](https://user-images.githubusercontent.com/24189833/94060498-58a80a80-fde4-11ea-8b58-8f0d6f9f136e.png)
 ![2020-09-23 (8)](https://user-images.githubusercontent.com/24189833/94060862-e683f580-fde4-11ea-97aa-4be7960d2126.png)
+![2020-09-23 (9)](https://user-images.githubusercontent.com/24189833/94061125-424e7e80-fde5-11ea-85ee-c352b6d57789.png)
+![2020-09-23 (10)](https://user-images.githubusercontent.com/24189833/94061457-b426c800-fde5-11ea-9059-072543573d73.png)
+если всё в порядке то получаем "зелёный свет"
+![2020-09-23 (11)](https://user-images.githubusercontent.com/24189833/94061629-eb957480-fde5-11ea-9620-8272fbfa3441.png)
 
 
 
