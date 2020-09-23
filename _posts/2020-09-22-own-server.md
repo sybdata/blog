@@ -12,6 +12,13 @@ tags:
 
 ![2020-09-22 (6)](https://user-images.githubusercontent.com/24189833/93932452-84fa5300-fd20-11ea-8465-cb84ce99817f.png)
 
+## Запустите собственный сервер в Oracle Cloud Infrastructure
+
+### Вначале выберим язык на котором понятней и удобней и открываем стартовую страницу: https://www.oracle.com/ru/index.html
+идём в -> "Oracle Cloud Infrastructure" -> "Опробовать бесплатный уровень" 
+![2020-09-23 (1)](https://user-images.githubusercontent.com/24189833/94052304-09a8a800-fdd9-11ea-9e9e-ec666a0c8445.png)
+
+
 ## Run your own ZMP Server on Oracle Cloud Infrastructure
 
 If you choose to, register on Oracle Cloud (requires credit card for verification) and create a free VM:
