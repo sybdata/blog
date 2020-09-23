@@ -34,6 +34,17 @@ tags:
 ![2020-09-23 (10)](https://user-images.githubusercontent.com/24189833/94061457-b426c800-fde5-11ea-9059-072543573d73.png)
 если всё в порядке то получаем "зелёный свет"
 ![2020-09-23 (11)](https://user-images.githubusercontent.com/24189833/94061629-eb957480-fde5-11ea-9620-8272fbfa3441.png)
+и теперь кнопка "start my free.." наконец то доступна
+![2020-09-23 (13)](https://user-images.githubusercontent.com/24189833/94062458-fef50f80-fde6-11ea-81f6-94ed9fa52552.png)
+жмакаем и мы на месте
+![2020-09-23 (14)](https://user-images.githubusercontent.com/24189833/94062725-53988a80-fde7-11ea-84fa-d0d5f0453978.png)
+обзываем свой будущий сервер
+![2020-09-23 (15)](https://user-images.githubusercontent.com/24189833/94062971-b38f3100-fde7-11ea-987d-900a0da00600.png)
+выбираем ОСь
+![2020-09-23 (16)](https://user-images.githubusercontent.com/24189833/94063137-f3eeaf00-fde7-11ea-8e0c-f0ad9660d42b.png)
+бесплатные машины доступны только на AD3!
+![2020-09-23 (17)](https://user-images.githubusercontent.com/24189833/94063430-62cc0800-fde8-11ea-8e09-fa5904072e1a.png)
+
 
 
 
