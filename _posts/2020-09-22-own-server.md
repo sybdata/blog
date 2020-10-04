@@ -76,9 +76,47 @@ tags:
 
 
 # enjoy
+# Дополнительно(Бонус)
 ## Использование сети маршрутизации в режиме кластера
 ![ingress-routing-mesh](https://user-images.githubusercontent.com/24189833/95024190-d17b5200-0681-11eb-9277-a6d5be892b70.png)
+### Открыть протоколы и порты между хостами
+Следующие порты должны быть доступны:
 
+ * TCP port 2377  для управления кластером
+ * TCP and UDP port 7946 для связи между узлами
+ * UDP port 4789  для оверлейного сетевого трафика
+ 
+ ### Создание кластера
+ #### Откройте терминал и подключитесь по ssh к машине, на которой вы хотите запустить свой управляющий узел и выполните следующюю команду:
+ ```ruby
+ $ docker swarm init --advertise-addr 192.168.99.100
+Swarm initialized: current node (dxn1zf6l61qsb1josjja83ngz) is now a manager.
+
+To add a worker to this swarm, run the following command:
+
+    docker swarm join \
+    --token SWMTKN-1-49nj1cmql0jkz5s954yi3oex3nedyz0fb0xx14ie39trti4wxv-8vxv8rssmk743ojnwacrr2e7c \
+    192.168.99.100:2377
+
+To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+ ```
+ 
+#### Откройте терминал и подключитесь по ssh к машине, на которой вы хотите запустить второй рабочий узел.
+#### Запустите команду, созданную выходными данными docker swarm init из первого шага, чтобы создать второй рабочий узел, присоединенный к существующему swarm:
+```ruby
+$ docker swarm join \
+  --token SWMTKN-1-49nj1cmql0jkz5s954yi3oex3nedyz0fb0xx14ie39trti4wxv-8vxv8rssmk743ojnwacrr2e7c \
+  192.168.99.100:2377
+
+This node joined a swarm as a worker.
+```
+### Разверните сервис в кластере
+#### Откройте терминал и подключитесь по ssh к машине, на которой вы запустили управляющий узел и выполните следующую команду:
+```ruby
+docker service create --replicas 4 --name zmp_cluster --publish published=1010,target=1010 sybdata/ace86a37:zproxy
+
+```
+![2020-10-04 (1)](https://user-images.githubusercontent.com/24189833/95024782-a3980c80-0685-11eb-9d08-248f573d17fe.png)
 
 
 
