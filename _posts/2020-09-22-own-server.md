@@ -76,6 +76,8 @@ tags:
 
 
 # enjoy
+## Использование сети маршрутизации в режиме кластера
+![ingress-routing-mesh](https://user-images.githubusercontent.com/24189833/95024190-d17b5200-0681-11eb-9277-a6d5be892b70.png)
 
 
 
