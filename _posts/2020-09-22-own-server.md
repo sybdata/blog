@@ -118,7 +118,7 @@ docker service create --replicas 4 --name zmp_cluster --publish published=1010,t
 ```
 ![2020-10-04 (1)](https://user-images.githubusercontent.com/24189833/95024782-a3980c80-0685-11eb-9d08-248f573d17fe.png)
 
-![2020-10-03 (4)](https://user-images.githubusercontent.com/24189833/95025006-dd1d4780-0686-11eb-9fff-95e6e9ce7df8.png)
+![2020-10-04 (2)](https://user-images.githubusercontent.com/24189833/95025247-9f212300-0688-11eb-8cb5-bd7ec1bec82a.png)
 
 
 ## Run your own ZMP Server on Oracle Cloud Infrastructure
