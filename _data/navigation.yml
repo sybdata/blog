@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "OTT-IPTV"
-    url: https://sybdata.github.io/blog/netzwerk/ott-iptv/
+    url: https://sybdata.github.io/blog/netzwerk/ott-01iptv/
   - title: "P2P"
     url: https://sybdata.github.io/blog/netzwerk/p2p/
   - title: "Implemented-Solutions"
     url: https://sybdata.github.io/blog/netzwerk/Implemented-Solutions/
   - title: "DIY-Server"
-    url: https://sybdata.github.io/blog/netzwerk/own-server/
+    url: https://sybdata.github.io/blog/netzwerk/own-01server/
   - title: "Download"
     url: https://sybdata.github.io/blog/netzwerk/download
   - title: "Categories"
