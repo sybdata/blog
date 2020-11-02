@@ -11,7 +11,7 @@ tags:
   - proxy
 ---
 
-* [ZMP(ZMediaProxy)-прокси-сервер authorization by xTeVe ](http://m-portal.ultima-tv.com:34400/web)
+* [ZMP(ZMediaProxy)-сервер](https://user-images.githubusercontent.com/24189833/95739613-64704980-0c8b-11eb-9b02-d076e6e69916.gif)
 
 * HLS Proxy
 
