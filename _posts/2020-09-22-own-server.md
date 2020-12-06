@@ -14,8 +14,6 @@ tags:
 
 ## Запустите собственный сервер в Oracle Cloud Infrastructure
 
-## Все вопросы и запросы для получения расшифрованого плейлиста направлять на [streamfaster@id500.de](mailto:streamfaster@id500.de)
-
 ### Вначале выберем язык на котором понятней и удобней и открываем стартовую страницу: https://www.oracle.com/ru/index.html
 ### идём в -> "Oracle Cloud Infrastructure" -> "Опробовать бесплатный уровень" 
 ![2020-09-23 (1)](https://user-images.githubusercontent.com/24189833/94052304-09a8a800-fdd9-11ea-9e9e-ec666a0c8445.png)
