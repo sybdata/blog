@@ -20,7 +20,7 @@ locale                   : "ru-RU"
 title                    : "Fast Stream"
 title_separator          : "-"
 name                     : "Fast Stream"
-description              : "Техническая поддержка"
+description              : "Онлайн Телевидение через интернет - Техническая поддержка"
 url                      : "https://ottg.de"
 baseurl                  : "/blog"
 repository               : "/sybdata/blog/"
@@ -107,18 +107,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "ASid500"
-  avatar           : "/assets/images/2019-06-14 20-19-28-1.png"
-  bio              : "I am an amazing person."
+  name             : "Fast Stream"
+  avatar           : "/assets/images/applet.png"
+  bio              : "Техническая поддержка"
   location         : "Hamburg"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:alex@id500.de
+      url: mailto:streamfaster@id500.de
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://tech.id500.de/wp/"
+      url: "https://ottg.de"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sybdata"
